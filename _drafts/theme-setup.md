@@ -5,7 +5,7 @@ title: Theme Setup
 description: "Instructions on how to install and customize the Jekyll theme HMFAYSAL V2"
 tags: [Jekyll, theme, responsive]
 image:
-  feature: olymel.jpg
+  feature: texture-feature-02.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

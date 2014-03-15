@@ -38,9 +38,9 @@ links:
     url: /about/
   - title: Статьи
     url: /articles/
-  - title: Setup
-    url: /theme-setup/
-    external: true
+  # - title: Setup
+  #   url: /theme-setup/
+  #   external: true
   - title: FAQ
     url: /faq
 

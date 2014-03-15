@@ -10,8 +10,8 @@ image:
   credit: stolen-designs
   creditlink: http://stolen-designs.deviantart.com
 ---
-
-My name is **Hossain Mohd. Faysal**, I am an MSc + PhD candidate in *Electrical Engineering* at the [School of Engineering and Applied Science](http://www.seas.upenn.edu/) at **University of Pennsylvania**. I am licensed as a Professional Engineer (P.E) to practice in the states of Texas, Massachusetts and California. I graduated with a B.Sc degree in EECS from Texas A&M University in 2011 and with a B.Sc degree in Mathematics from Massachusetts Institute of Technology in 2012, and currently focusing on Electrical Engineering for my post-graduate studies.   
+## Coming soon
+<!-- My name is **Hossain Mohd. Faysal**, I am an MSc + PhD candidate in *Electrical Engineering* at the [School of Engineering and Applied Science](http://www.seas.upenn.edu/) at **University of Pennsylvania**. I am licensed as a Professional Engineer (P.E) to practice in the states of Texas, Massachusetts and California. I graduated with a B.Sc degree in EECS from Texas A&M University in 2011 and with a B.Sc degree in Mathematics from Massachusetts Institute of Technology in 2012, and currently focusing on Electrical Engineering for my post-graduate studies.   
 
 ---
 Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://www.theevilgenius.tk) as a theme for others to hack and build on would be fun. So here be that theme --- I call it **HMFAYSAL V2**, a responsive Jekyll theme with a navigation drawer, large featured images and solid typography. 
@@ -25,4 +25,4 @@ Jekyll is pretty rad and figured releasing a cleaned up version of [my site](htt
 * Author sidebar to pimp your bio, photo[^2], and social media links.
 * Simple and clear permalink structure *(ie: domain.com/category/post-title)*
 
-<a markdown="0" href="{{ site.url }}/technical-details" class="btn">Technical Details</a>
+<a markdown="0" href="{{ site.url }}/technical-details" class="btn">Technical Details</a> -->
