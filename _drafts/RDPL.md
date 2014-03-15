@@ -35,6 +35,8 @@ permalink: RDPL
 * Брать можно не только книги, но и кучу фильмов(на DVD :disappointed:), музыки, аудио книг.
 * Есть цифровой раздел - книг там не много, но вот журналов таких как The Economist есть. Читать можно самые свежие выпуски с iPad абсолютно бесплатно. Год подписки на The Economist стоит $130, если что.
 * При входе в библиотеку есть кафе.
+* Куча активити для детей - из которых самое крутое это вечер Lego. Прямо в библиотеке. Они там собирают его.
+
 
 ![Red Deer Public Library Downtown Branch]({{ site.url }}/images/library/rdpl49st1.jpg)
 ![Red Deer Public Library Dawe Branch]({{ site.url }}/images/library/dawe-front-entrance.jpg)
