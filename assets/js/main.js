@@ -154,3 +154,11 @@
     }
 
 })(window, window.document);
+// $(document).ready(function() {
+//     $('.articl').mouseover(function() {
+//         $(this).find('.postdate').stop(true, true).slideDown();
+//     });
+//     $('.articl').mouseleave(function() {
+//         $(this).find('.postdate').stop(true, true).slideUp();
+//     });
+// });

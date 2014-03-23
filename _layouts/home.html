@@ -23,15 +23,21 @@
 </div>
 
 <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <h3><a href="{{ site.url}}/articles/">Articles</a></h3>
-  {% for post in site.posts limit:5 %}    
-  <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-    <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
+  <h3><a href="{{ site.url}}/articles/">Все записи</a></h3>
+  {% for post in site.posts limit:7 %}    
+  <article class="articl" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+    <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2><div class="postdate">
+    <div class="month m-{{ post.date | date: "%m"}}">{{ post.date | date: "%m"}}</div>
+    <div class="day d-{{ post.date | date: "%d"}}">{{ post.date | date: "%d"}}</div>
+    <div class="year y-{{ post.date | date: "%Y"}}">{{ post.date | date: "%Y"}}</div>
+    </div>
     <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+
+      
   </article>
   {% endfor %}
+  {% if site.posts.size > 7 %}<h5 style="float:right;"><a href="{{ site.url}}/articles/">больше статей...</a></h5>{% endif %}
 </div><!-- /#index -->
-
 <div class="footer-wrap">
   <footer>
     {% include _footer.html %}
