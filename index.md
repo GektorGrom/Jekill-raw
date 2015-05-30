@@ -1,7 +1,7 @@
 ---
 layout: home
-description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+description: "Мелкие рассказы о Канаде. Работа и жизнь."
+tags: [Канада, блог, работа, blog, template]
 image:
   feature: start/wood.jpg
   credit: CHRISTOPHER MARTIN

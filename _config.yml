@@ -1,7 +1,8 @@
 title:            GektorGrom's Blog
+name:             GektorGrom's Blog
 description:      Жизнь в Канаде.
 disqus_shortname: lion58
-# url:              http://jesse.co.ua
+url:              http://jesse.co.ua
 
 # Owner/author information
 owner:
@@ -12,22 +13,22 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        lion58
   facebook:       slava.mednikov
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram:     gektorgrom 
-  lastfm:        
-  flickr:         
-  tumblr:         
-  hmfaysalsocial:   
+  github:
+  stackexchange:
+  linkedin:
+  instagram:     gektorgrom
+  lastfm:
+  flickr:
+  tumblr:
+  hmfaysalsocial:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-48810704-1
 google_verify:      uBF3ei3WP79pvyHbFhul0LDixl63SHSMZkDaMUjMctk
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -47,7 +48,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Edmonton
 future:      true
-pygments:    true
+highlighter:    'pygments'
 markdown:    kramdown
 
 kramdown:
@@ -57,7 +58,7 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-destination: ~/jekyll-sites/MyBlog/gektorgrom.github.io/
-gems: ["emoji_for_jekyll"]
+destination: ~/blog/gektorgrom.github.io/
+gems: [jemoji]
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "raft", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
