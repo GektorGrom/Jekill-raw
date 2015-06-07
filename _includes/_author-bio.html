@@ -1,12 +1,29 @@
-<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo"></a>
-<h3>{{ site.owner.name }}</h3>
-<p>{{ site.owner.bio }}</p>
-{% if site.owner.hmfaysalsocial %}<a href="http://social.hmfaysal.tk/index.php?a=profile&u={{ site.owner.hmfaysalsocial }}" class="author-social" target="_blank"><i class="icon-droplet"></i> HMFaysal Social</a>{% endif %}
-{% if site.owner.twitter %}<a href="http://twitter.com/{{ site.owner.twitter }}" class="author-social" target="_blank"><i class="icon-twitter"></i> Twitter</a>{% endif %}
-{% if site.owner.facebook %}<a href="http://facebook.com/{{ site.owner.facebook }}" class="author-social" target="_blank"><i class="icon-facebook"></i> Facebook</a>{% endif %}
-{% if site.owner.google_plus %}<a href="{{ site.owner.google_plus }}" class="author-social" target="_blank"><i class="icon-google-plus"></i> Google+</a>{% endif %}
-{% if site.owner.linkedin %}<a href="http://linkedin.com/in/{{ site.owner.linkedin }}" class="author-social" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a>{% endif %}
-{% if site.owner.instagram %}<a href="http://instagram.com/{{ site.owner.instagram }}" class="author-social" target="_blank"><i class="icon-instagram"></i> Instagram</a>{% endif %}
-{% if site.owner.github %}<a href="http://github.com/{{ site.owner.github }}" class="author-social" target="_blank"><i class="icon-github"></i> Github</a>{% endif %}
-{% if site.owner.lastfm %}<a href="http://lastfm.com/{{ site.owner.lastfm }}" class="author-social" target="_blank"><i class="icon-lastfm"></i> Last.fm</a>{% endif %}
-{% if site.owner.tumblr %}<a href="http://{{ site.owner.tumblr }}.tumblr.com" class="author-social" target="_blank"><i class="icon-tumblr"></i> Tumblr</a>{% endif %}
+{% if page.layout == 'post' or page.layout == 'post_Marina' %}
+<img src="{{ site.url }}/images/{{ site.owner[page.author].avatar }}" class="bio-photo" alt="{{ site.owner[page.author].name }} bio photo"></a>
+<h3>{{ site.owner[page.author].name }}</h3>
+<p>{{ site.owner[page.author].bio }}</p>
+{% if site.owner[page.author].hmfaysalsocial %}<a href="http://social.hmfaysal.tk/index.php?a=profile&u={{ site.owner[page.author].hmfaysalsocial }}" class="author-social" target="_blank"><i class="icon-droplet"></i> HMFaysal Social</a>{% endif %}
+{% if site.owner[page.author].twitter %}<a href="http://twitter.com/{{ site.owner[page.author].twitter }}" class="author-social" target="_blank"><i class="icon-twitter"></i> Twitter</a>{% endif %}
+{% if site.owner[page.author].facebook %}<a href="http://facebook.com/{{ site.owner[page.author].facebook }}" class="author-social" target="_blank"><i class="icon-facebook"></i> Facebook</a>{% endif %}
+{% if site.owner[page.author].google_plus %}<a href="{{ site.owner[page.author].google_plus }}" class="author-social" target="_blank"><i class="icon-google-plus"></i> Google+</a>{% endif %}
+{% if site.owner[page.author].linkedin %}<a href="http://linkedin.com/in/{{ site.owner[page.author].linkedin }}" class="author-social" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a>{% endif %}
+{% if site.owner[page.author].instagram %}<a href="http://instagram.com/{{ site.owner[page.author].instagram }}" class="author-social" target="_blank"><i class="icon-instagram"></i> Instagram</a>{% endif %}
+{% if site.owner[page.author].github %}<a href="http://github.com/{{ site.owner[page.author].github }}" class="author-social" target="_blank"><i class="icon-github"></i> Github</a>{% endif %}
+{% if site.owner[page.author].lastfm %}<a href="http://lastfm.com/{{ site.owner[page.author].lastfm }}" class="author-social" target="_blank"><i class="icon-lastfm"></i> Last.fm</a>{% endif %}
+{% if site.owner[page.author].tumblr %}<a href="http://{{ site.owner[page.author].tumblr }}.tumblr.com" class="author-social" target="_blank"><i class="icon-tumblr"></i> Tumblr</a>{% endif %}
+
+{% else %}
+<img src="{{ site.url }}/images/{{ site.owner['GektorGrom'].avatar }}" class="bio-photo" alt="{{ site.owner['GektorGrom'].name }} bio photo"></a>
+<h3>{{ site.owner['GektorGrom'].name }}</h3>
+<p>{{ site.owner['GektorGrom'].bio }}</p>
+{% if site.owner['GektorGrom'].hmfaysalsocial %}<a href="http://social.hmfaysal.tk/index.php?a=profile&u={{ site.owner['GektorGrom'].hmfaysalsocial }}" class="author-social" target="_blank"><i class="icon-droplet"></i> HMFaysal Social</a>{% endif %}
+{% if site.owner['GektorGrom'].twitter %}<a href="http://twitter.com/{{ site.owner['GektorGrom'].twitter }}" class="author-social" target="_blank"><i class="icon-twitter"></i> Twitter</a>{% endif %}
+{% if site.owner['GektorGrom'].facebook %}<a href="http://facebook.com/{{ site.owner['GektorGrom'].facebook }}" class="author-social" target="_blank"><i class="icon-facebook"></i> Facebook</a>{% endif %}
+{% if site.owner['GektorGrom'].google_plus %}<a href="{{ site.owner['GektorGrom'].google_plus }}" class="author-social" target="_blank"><i class="icon-google-plus"></i> Google+</a>{% endif %}
+{% if site.owner['GektorGrom'].linkedin %}<a href="http://linkedin.com/in/{{ site.owner['GektorGrom'].linkedin }}" class="author-social" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a>{% endif %}
+{% if site.owner['GektorGrom'].instagram %}<a href="http://instagram.com/{{ site.owner['GektorGrom'].instagram }}" class="author-social" target="_blank"><i class="icon-instagram"></i> Instagram</a>{% endif %}
+{% if site.owner['GektorGrom'].github %}<a href="http://github.com/{{ site.owner['GektorGrom'].github }}" class="author-social" target="_blank"><i class="icon-github"></i> Github</a>{% endif %}
+{% if site.owner['GektorGrom'].lastfm %}<a href="http://lastfm.com/{{ site.owner['GektorGrom'].lastfm }}" class="author-social" target="_blank"><i class="icon-lastfm"></i> Last.fm</a>{% endif %}
+{% if site.owner['GektorGrom'].tumblr %}<a href="http://{{ site.owner['GektorGrom'].tumblr }}.tumblr.com" class="author-social" target="_blank"><i class="icon-tumblr"></i> Tumblr</a>{% endif %}
+
+{% endif %}

@@ -156,62 +156,98 @@
 })(window, window.document);
 
 $(document).ready(function () {
-    jQuery("#nanoGallery4").nanoGallery({
+
+    $("#nanoGallery5").nanoGallery({
+        kind: 'flickr',
+        userID: '96313114@N02',
+
+        // uncomment this line to display one specific album:
+        photoset:'72157651825450913',
+
+        // uncomment this line to display full photostream (v5.0.0):
+        // photoset:'none',
+        theme: 'light',
+        imageTransition:'slideAppear',
+        colorScheme: 'none',
+
+        thumbnailWidth: 120,
+        thumbnailHeight: 120,
+        thumbnailLabel: {
+            display: false,
+            displayDescription: false,
+            position: 'overImageOnBottom'
+        },
+        thumbnailHoverEffect:'borderLighter'
+    });
+    $("#nanoGallery4").nanoGallery({
     thumbnailWidth: 120,
     thumbnailHeight: 120,
     items: [{
-        src: 'IMG_0193.JPG', 
+        src: 'IMG_0193.JPG',
         srct: 'IMG_0193-tumb.JPG',
-        title: 'Living Room', 
-        description: 'Готовимся к переезду' 
+        title: 'Living Room',
+        description: 'Готовимся к переезду'
     },{
-        src: 'IMG_0194.JPG', 
+        src: 'IMG_0194.JPG',
         srct: 'IMG_0194-tumb.JPG',
-        title: 'Кухня', 
-        description: 'Нравятся мне полки сверху' 
+        title: 'Кухня',
+        description: 'Нравятся мне полки сверху'
     },{
-        src: 'IMG_0195.JPG', 
+        src: 'IMG_0195.JPG',
         srct: 'IMG_0195-tumb.JPG',
-        title: 'Вид из кухни', 
-        description: 'Справа верхняя комната' 
+        title: 'Вид из кухни',
+        description: 'Справа верхняя комната'
     },{
-        src: 'IMG_0196.JPG', 
+        src: 'IMG_0196.JPG',
         srct: 'IMG_0196-tumb.JPG',
-        title: '1/2 bathroom', 
-        description: 'Очень удобный, отгадайте почему' 
+        title: '1/2 bathroom',
+        description: 'Очень удобный, отгадайте почему'
     },{
-        src: 'IMG_0197.JPG', 
+        src: 'IMG_0197.JPG',
         srct: 'IMG_0197-tumb.JPG',
-        title: 'Выход', 
-        description: 'Для меня лестницы сильно крутые' 
+        title: 'Выход',
+        description: 'Для меня лестницы сильно крутые'
     },{
-        src: 'IMG_0198.JPG', 
+        src: 'IMG_0198.JPG',
         srct: 'IMG_0198-tumb.JPG',
-        title: 'Обувь', 
-        description: 'Нас 6 и обуви очень много' 
+        title: 'Обувь',
+        description: 'Нас 6 и обуви очень много'
     },{
-        src: 'IMG_0199.JPG', 
+        src: 'IMG_0199.JPG',
         srct: 'IMG_0199-tumb.JPG',
-        title: 'Стиралка/Сушилка', 
-        description: 'Старые!!!' 
+        title: 'Стиралка/Сушилка',
+        description: 'Старые!!!'
     },{
-        src: 'IMG_0200.JPG', 
+        src: 'IMG_0200.JPG',
         srct: 'IMG_0200-tumb.JPG',
-        title: 'Ванна', 
-        description: 'Достаточно большая кстати.' 
+        title: 'Ванна',
+        description: 'Достаточно большая кстати.'
     },{
-        src: 'IMG_0201.JPG', 
+        src: 'IMG_0201.JPG',
         srct: 'IMG_0201-tumb.JPG',
-        title: 'Ванна', 
-        description: '' 
+        title: 'Ванна',
+        description: ''
     }
     ],
     itemsBaseURL: 'http://jesse.co.ua/images/nanoGal',
     thumbnailLabel: {
         display: true,
-        position: 'overImageOnBottom'
+        displayDescription: true,
+        align: 'center',
+        position: 'overImageOnMiddle',
+        hideIcons:true
     },
     theme: 'light',
-    thumbnailHoverEffect:'labelOpacity50,descriptionSlideUp'
+    thumbnailHoverEffect: {
+        duration: 450,
+        name: 'labelSlideUp',
+        easing: 'swing',
+        easingBack: 'swing'
+    },
+    colorScheme: 'darkGreen',
+    colorSchemeViewer: 'light',
+    lazyBuild:'display',
+    viewer: 'internal',
+    imageTransition:'slideAppear'
 });
 });

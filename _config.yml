@@ -2,27 +2,46 @@ title:            GektorGrom's Blog
 name:             GektorGrom's Blog
 description:      Жизнь в Канаде.
 disqus_shortname: lion58
-url:              http://jesse.co.ua
+# url:              http://jesse.co.ua
 
 # Owner/author information
 owner:
-  name:           Slava Mednikov
-  avatar:         10738_10203285889011431_1473477160_n.jpg
-  bio:            "Недавно переехал в Канаду по рабочей визе. Работаю на Olymel. Развлекаюсь этим бложиком"
-  email:          gektorgrom@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        lion58
-  facebook:       slava.mednikov
-  github:
-  stackexchange:
-  linkedin:
-  instagram:     gektorgrom
-  lastfm:
-  flickr:
-  tumblr:
-  hmfaysalsocial:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  GektorGrom:
+    name:           Slava Mednikov
+    avatar:         10738_10203285889011431_1473477160_n.jpg
+    bio:            "Недавно переехал в Канаду по рабочей визе. Работаю на Olymel. Развлекаюсь этим бложиком"
+    email:          gektorgrom@gmail.com
+    # Social networking links used in footer. Update and remove as you like.
+    twitter:        lion58
+    facebook:       slava.mednikov
+    github:
+    stackexchange:
+    linkedin:
+    instagram:     gektorgrom
+    lastfm:
+    flickr:        96313114@N02
+    tumblr:
+    hmfaysalsocial:
+    # For Google Authorship https://plus.google.com/authorship
+    google_plus:
+  Marina:
+    name:           Marina Mednikova
+    avatar:         murmur.jpg
+    bio:            "Люблю котиков 😻"
+    email:          murmur58@gmail.com
+    # Social networking links used in footer. Update and remove as you like.
+    twitter:
+    facebook:       murmur8
+    github:
+    stackexchange:
+    linkedin:
+    instagram:     murmur58
+    lastfm:
+    flickr:
+    tumblr:
+    hmfaysalsocial:
+    # For Google Authorship https://plus.google.com/authorship
+    google_plus:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-48810704-1
@@ -58,7 +77,7 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-destination: ~/blog/gektorgrom.github.io/
+# destination: '/home/vagrant/blog/gektorgrom.github.io/'
 gems: [jemoji]
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "raft", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
