@@ -157,28 +157,7 @@
 
 $(document).ready(function () {
 
-    $("#nanoGallery5").nanoGallery({
-        kind: 'flickr',
-        userID: '96313114@N02',
 
-        // uncomment this line to display one specific album:
-        photoset:'72157651825450913',
-
-        // uncomment this line to display full photostream (v5.0.0):
-        // photoset:'none',
-        theme: 'light',
-        imageTransition:'slideAppear',
-        colorScheme: 'none',
-
-        thumbnailWidth: 120,
-        thumbnailHeight: 120,
-        thumbnailLabel: {
-            display: false,
-            displayDescription: false,
-            position: 'overImageOnBottom'
-        },
-        thumbnailHoverEffect:'borderLighter'
-    });
     $("#nanoGallery4").nanoGallery({
     thumbnailWidth: 120,
     thumbnailHeight: 120,
@@ -248,6 +227,6 @@ $(document).ready(function () {
     colorSchemeViewer: 'light',
     lazyBuild:'display',
     viewer: 'internal',
-    imageTransition:'slideAppear'
+    imageTransition:'swipe'
 });
 });

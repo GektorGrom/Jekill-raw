@@ -1,1 +1,15 @@
-_site
+*
+!_config.yml
+!_drafts
+!_includes
+!_layouts
+!_posts
+!404.md
+!about.md
+!articles.md
+!assets
+!CNAME
+!css
+!faq.md
+!feed.xml
+!index.md
