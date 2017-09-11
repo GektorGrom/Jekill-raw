@@ -1,4 +1,4 @@
-*
+
 !_config.yml
 !_drafts
 !_includes
@@ -13,3 +13,4 @@
 !faq.md
 !feed.xml
 !index.md
+.idea/*
